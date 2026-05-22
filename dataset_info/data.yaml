@@ -1,0 +1,10 @@
+path: air_defense_dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+  0: missile
+  1: uav
+  2: helicopter
+  3: fighter_aircraft

@@ -1,0 +1,4 @@
+0 missile
+1 uav
+2 helicopter
+3 fighter_aircraft
