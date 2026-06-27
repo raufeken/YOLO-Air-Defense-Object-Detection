@@ -1,5 +1,25 @@
 # YOLO11 Air Defense Object Detection Project
 
+## Proje Notu ve Katkılarım
+
+Bu proje, takım çalışması kapsamında geliştirilmiş YOLO11 tabanlı bir nesne tespit çalışmasıdır. Repository fork yapısında bulunduğu için projedeki kişisel rolümü açıkça belirtmek amacıyla bu bölüm eklenmiştir.
+
+Projenin veri seti hazırlama, model eğitimi, test süreci, sonuçların değerlendirilmesi ve demo uygulaması aşamalarında baştan sona aktif olarak yer aldım.
+
+### Yer Aldığım Çalışmalar
+
+* Hava hedefi sınıflarının belirlenmesi ve YOLO formatına uygun veri seti yapısının hazırlanması
+* Görsel ve etiket dosyalarının eğitim, doğrulama ve test klasörlerine ayrılması
+* Etiket dosyalarının `class_id x_center y_center width height` formatına uygunluğunun kontrol edilmesi
+* `data.yaml` ve sınıf bilgilerinin düzenlenmesi
+* YOLO11n modeli ile eğitim sürecinin yürütülmesi
+* Eğitim parametrelerinin belirlenmesi ve model performansının takip edilmesi
+* Test sonuçlarının mAP, confusion matrix, PR curve ve F1 curve gibi metriklerle değerlendirilmesi
+* Modelin tek resim, resim klasörü, video ve canlı kamera üzerinde çalışacak şekilde test edilmesi
+* OpenCV tabanlı demo kullanımının hazırlanması ve çıktıların incelenmesi
+* Demo çıktılarının `image_detected` ve `video_detected` klasörlerinde düzenlenmesi
+* Proje sonuçlarının raporlanması ve README dokümantasyonunun hazırlanması
+
 ## Projenin Amacı
 
 Bu proje, hava savunma alanında kullanılan farklı hava hedeflerini görüntü ve video üzerinde tespit etmek için hazırlanmış bir YOLO11 nesne tespit çalışmasıdır.
